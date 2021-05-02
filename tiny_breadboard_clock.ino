@@ -49,7 +49,7 @@ void setup() {
   pinMode(data, OUTPUT);
   pinMode(clk, OUTPUT);
   pinMode(b1, INPUT);
-s
+
   TinyWireM.begin();
   
   rtc.begin();
